@@ -71,7 +71,7 @@ async function StartFirebase(uidOpt: string | null = null) {
          .doc(uid)
          .onSnapshot(async data => {
             if (uid == null) return;
-            if (isFirstSoIgnore.has(uid)) {
+            if (!isFirstSoIgnore.has(uid)) {
                isFirstSoIgnore.set(uid, true);
                return;
             }
@@ -95,6 +95,7 @@ async function StartFirebase(uidOpt: string | null = null) {
 // @ts-ignore
 onmessage = async (e: MessageEvent) => {
    if (e.data.type === 'start') {
+      isFirstSoIgnore.clear();
       await StartFirebase(e.data.uid);
    }
    if (e.data.type === 'new-user') {
