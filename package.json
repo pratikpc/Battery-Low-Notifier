@@ -1,0 +1,179 @@
+{
+   "name": "low-battery-indicator",
+   "version": "0.0.1",
+   "private": true,
+   "dependencies": {
+      "@material-ui/core": "^4.11.0",
+      "@material-ui/icons": "^4.9.1",
+      "@material-ui/lab": "^4.0.0-alpha.56",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^10.4.9",
+      "@testing-library/user-event": "^12.1.3",
+      "@types/async-lock": "^1.1.2",
+      "@types/jest": "^26.0.10",
+      "@types/node": "^14.6.2",
+      "@types/react": "^16.9.48",
+      "@types/react-dom": "^16.9.8",
+      "@types/react-router-dom": "^5.1.5",
+      "@types/sharedworker": "0.0.29",
+      "async-lock": "^1.2.4",
+      "clsx": "^1.1.1",
+      "firebase": "^7.19.1",
+      "firebaseui": "^4.6.1",
+      "formula-one-six-degree-graph-util": "^1.0.0",
+      "formula-one-six-degrees-metadata": "^1.0.1",
+      "idb": "^5.0.4",
+      "material-table": "^1.69.0",
+      "prop-types": "^15.7.2",
+      "react": "^16.13.1",
+      "react-d3-tree": "^1.16.1",
+      "react-dom": "^16.13.1",
+      "react-firebaseui": "^4.1.0",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.3",
+      "typescript": "^4.0.2"
+   },
+   "homepage": "/Battery-Low-Notifier",
+   "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "lint": "eslint --cache --max-warnings=0 --fix src/**/*.tsx",
+      "format": "prettier --write src package.json",
+      "clean-site": "rimraf docs",
+      "move-site": "mv build docs || move build docs",
+      "deploy": "npm run clean-site && npm run build && npm run move-site"
+   },
+   "eslintConfig": {
+      "root": true,
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+         "tsconfigRootDir": ".",
+         "project": [
+            "tsconfig.json"
+         ]
+      },
+      "rules": {
+         "react/destructuring-assignment": "off",
+         "react/jsx-props-no-spreading": "off",
+         "@typescript-eslint/no-explicit-any": "off",
+         "@typescript-eslint/explicit-function-return-type": "off",
+         "@typescript-eslint/explicit-module-boundary-types": "off",
+         "object-shorthand": [
+            "error",
+            "never"
+         ],
+         "import/no-extraneous-dependencies": [
+            "error",
+            {
+               "devDependencies": true
+            }
+         ],
+         "no-return-await": "off",
+         "import/newline-after-import": "off",
+         "import/no-mutable-exports": 0,
+         "no-labels": 0,
+         "no-prototype-builtins": "off",
+         "no-console": "off",
+         "no-restricted-syntax": 0,
+         "max-classes-per-file": [
+            "error",
+            4
+         ],
+         "no-restricted-globals": "off",
+         "@typescript-eslint/lines-between-class-members": [
+            "error",
+            "always",
+            {
+               "exceptAfterSingleLine": true
+            }
+         ],
+         "lines-between-class-members": [
+            "error",
+            "always",
+            {
+               "exceptAfterSingleLine": true
+            }
+         ],
+         "promise/always-return": "off",
+         "promise/catch-or-return": "off",
+         "no-param-reassign": "off"
+      },
+      "plugins": [
+         "@typescript-eslint",
+         "svelte3",
+         "react"
+      ],
+      "extends": [
+         "plugin:react/recommended",
+         "react-app",
+         "eslint-config-airbnb-typescript-prettier",
+         "plugin:@typescript-eslint/recommended",
+         "plugin:eslint-comments/recommended",
+         "plugin:promise/recommended",
+         "prettier",
+         "prettier/@typescript-eslint"
+      ],
+      "overrides": [
+         {
+            "files": [
+               "**/*.svelte"
+            ],
+            "processor": "svelte3/svelte3"
+         }
+      ]
+   },
+   "browserslist": {
+      "production": [
+         ">0.2%",
+         "not dead",
+         "not op_mini all"
+      ],
+      "development": [
+         "last 1 chrome version",
+         "last 1 firefox version",
+         "last 1 safari version"
+      ]
+   },
+   "devDependencies": {
+      "customize-cra": "^1.0.0",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-typescript-prettier": "^3.1.0",
+      "eslint-plugin-eslint-comments": "^3.2.0",
+      "eslint-plugin-import": "^2.22.0",
+      "eslint-plugin-jsx-a11y": "^6.3.1",
+      "eslint-plugin-promise": "^4.2.1",
+      "eslint-plugin-react": "^7.20.6",
+      "eslint-plugin-svelte3": "^2.7.3",
+      "gh-pages": "^3.1.0",
+      "husky": "^4.2.5",
+      "lint-staged": "^10.2.13",
+      "prettier": "^2.1.1",
+      "react-app-rewired": "^2.1.6",
+      "svelte": "^3.24.1",
+      "worker-loader": "^3.0.2"
+   },
+   "husky": {
+      "hooks": {
+         "pre-commit": "lint-staged",
+         "pre-push": "lint-staged"
+      }
+   },
+   "lint-staged": {
+      "*.{ts,tsx}": "npm run lint",
+      "*.{ts,tsx,css,md,json}": [
+         "npm run format"
+      ]
+   },
+   "prettier": {
+      "trailingComma": "none",
+      "printWidth": 80,
+      "proseWrap": "preserve",
+      "semi": true,
+      "singleQuote": true,
+      "useTabs": false,
+      "tabWidth": 3,
+      "arrowParens": "avoid"
+   }
+}
