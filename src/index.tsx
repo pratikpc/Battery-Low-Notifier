@@ -19,7 +19,7 @@ import NotifyWorker from './worker/notify.worker';
 
 const worker = new NotifyWorker();
 
- async function FirebaseSetup() {
+async function FirebaseSetup() {
    firebase.initializeApp(FirebaseConfig);
    // worker.onmessage = (ev: any) => console.log(ev);
    if (window.Notification == null) {
