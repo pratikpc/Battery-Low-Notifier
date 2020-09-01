@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d976e7d985a61f910106ff355de5842b",
+    "revision": "81260107ff4abffbec564661743f95ca",
     "url": "/Battery-Low-Notifier/index.html"
   },
   {
-    "revision": "f7c7f0d448c3607792f8",
+    "revision": "f301d6f8c80ddabb074a",
     "url": "/Battery-Low-Notifier/static/css/main.fb8e7c72.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Battery-Low-Notifier/static/js/2.570e0d15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7c7f0d448c3607792f8",
-    "url": "/Battery-Low-Notifier/static/js/main.344e5894.chunk.js"
+    "revision": "f301d6f8c80ddabb074a",
+    "url": "/Battery-Low-Notifier/static/js/main.a96d6253.chunk.js"
   },
   {
-    "revision": "cead30af5ef70e3f2216be33287084ff",
-    "url": "/Battery-Low-Notifier/static/js/notify.worker.0637b768.worker.js"
+    "revision": "0b7e42fc89d140f61bb9f3e0c39793e8",
+    "url": "/Battery-Low-Notifier/static/js/notify.worker.b973d492.worker.js"
   },
   {
     "revision": "db6ddcc39171d302ad4d0a977b136dc0",
-    "url": "/Battery-Low-Notifier/static/js/notify.worker.0637b768.worker.js.LICENSE.txt"
+    "url": "/Battery-Low-Notifier/static/js/notify.worker.b973d492.worker.js.LICENSE.txt"
   },
   {
     "revision": "6bba3e2dd7104c7e801e",
