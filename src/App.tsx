@@ -44,10 +44,26 @@ const App: React.FC = () => {
                            }}
                         />
                         <Route
-                           path="/code"
+                           path="/code-website"
                            component={() => {
                               window.location.href =
-                                 'https://github.com/pratikpc/six-degree-f1';
+                                 'https://github.com/pratikpc/Battery-Low-Notifier';
+                              return null;
+                           }}
+                        />
+                        <Route
+                           path="/code-app"
+                           component={() => {
+                              window.location.href =
+                                 'https://github.com/pratikpc/Battery-Low-Notifier-Android';
+                              return null;
+                           }}
+                        />
+                        <Route
+                           path="/release"
+                           component={() => {
+                              window.location.href =
+                                 'https://github.com/pratikpc/Battery-Low-Notifier-Android/releases';
                               return null;
                            }}
                         />

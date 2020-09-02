@@ -1,5 +1,7 @@
 import React from 'react';
-import { Typography } from '@material-ui/core';
+import { Typography, Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import IconAndroid from '@material-ui/icons/AndroidRounded';
 
 export default function Dashboard() {
    return (
@@ -17,6 +19,12 @@ export default function Dashboard() {
             <br />
             When the Android App is Installed, and this window is open, you will
             receive notifications
+            <br />
+            <br />
+            <Button variant="outlined" component={Link} to="/release">
+               <IconAndroid />
+               Download Android APK
+            </Button>
          </Typography>
       </>
    );

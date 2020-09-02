@@ -7,6 +7,7 @@ import IconDashboard from '@material-ui/icons/Dashboard';
 import IconInfo from '@material-ui/icons/Description';
 import IconArticle from '@material-ui/icons/DescriptionSharp';
 import IconCode from '@material-ui/icons/GitHub';
+import IconAndroid from '@material-ui/icons/AndroidRounded';
 
 import MenuIcon from '@material-ui/icons/Menu';
 
@@ -30,6 +31,12 @@ const appMenuItems = [
       Icon: IconDashboard
    },
    {
+      name: 'Divider',
+      // Just add metadata
+      link: '',
+      Icon: IconArticle
+   },
+   {
       name: 'Sign Out',
       link: '/signOut',
       Icon: IconInfo
@@ -41,14 +48,19 @@ const appMenuItems = [
       Icon: IconArticle
    },
    {
-      name: 'Article',
-      link: '/article',
-      Icon: IconArticle
+      name: 'Website Code',
+      link: '/code-website',
+      Icon: IconCode
    },
    {
-      name: 'Code',
-      link: '/code',
+      name: 'App Code',
+      link: '/code-app',
       Icon: IconCode
+   },
+   {
+      name: 'Download APK',
+      link: '/release',
+      Icon: IconAndroid
    }
 ];
 
