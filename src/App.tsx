@@ -32,43 +32,45 @@ const App: React.FC = () => {
                               return null;
                            }}
                         />
-                        <Route
-                           path="/article"
-                           component={() => {
-                              window.location.href =
-                                 'https://medium.com/@pratikpc/six-degrees-of-formula-one-and-other-inter-connections-160a3a668afa?source=friends_link&sk=474f667c0b1ea7e18e8531c23b48eb8b';
-                              return null;
-                           }}
-                        />
-                        <Route
-                           path="/code-website"
-                           component={() => {
-                              window.location.href =
-                                 'https://github.com/pratikpc/Battery-Low-Notifier';
-                              return null;
-                           }}
-                        />
-                        <Route
-                           path="/code-app"
-                           component={() => {
-                              window.location.href =
-                                 'https://github.com/pratikpc/Battery-Low-Notifier-Android';
-                              return null;
-                           }}
-                        />
-                        <Route
-                           path="/release"
-                           component={() => {
-                              window.location.href =
-                                 'https://github.com/pratikpc/Battery-Low-Notifier-Android/releases';
-                              return null;
-                           }}
-                        />
                      </Switch>
                   </Container>
                </main>
             </div>
          </Auth>
+         <Switch>
+            <Route
+               path="/article"
+               component={() => {
+                  window.location.href =
+                     'https://medium.com/@pratikpc/six-degrees-of-formula-one-and-other-inter-connections-160a3a668afa?source=friends_link&sk=474f667c0b1ea7e18e8531c23b48eb8b';
+                  return null;
+               }}
+            />
+            <Route
+               path="/code-website"
+               component={() => {
+                  window.location.href =
+                     'https://github.com/pratikpc/Battery-Low-Notifier';
+                  return null;
+               }}
+            />
+            <Route
+               path="/code-app"
+               component={() => {
+                  window.location.href =
+                     'https://github.com/pratikpc/Battery-Low-Notifier-Android';
+                  return null;
+               }}
+            />
+            <Route
+               path="/release"
+               component={() => {
+                  window.location.href =
+                     'https://github.com/pratikpc/Battery-Low-Notifier-Android/releases';
+                  return null;
+               }}
+            />
+         </Switch>
       </Router>
    );
 };
