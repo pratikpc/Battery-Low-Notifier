@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Battery-Low-Notifier/precache-manifest.482d31d1a2d811535a982eb1864a7970.js"
+  "/Battery-Low-Notifier/precache-manifest.c07c4c3ff9f5841ccb495c76dd43eda9.js"
 );
 
 self.addEventListener('message', (event) => {

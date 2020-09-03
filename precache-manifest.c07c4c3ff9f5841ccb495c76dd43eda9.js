@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "930981b8fb21a7676428181d58ecdb05",
+    "revision": "138ed9615cd42d4b13baa89ac4eadbdc",
     "url": "/Battery-Low-Notifier/index.html"
   },
   {
-    "revision": "87b4287a88a64d073973",
+    "revision": "d0a6bff5f93ac70cd417",
     "url": "/Battery-Low-Notifier/static/css/main.fb8e7c72.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Battery-Low-Notifier/static/js/2.8e646477.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87b4287a88a64d073973",
-    "url": "/Battery-Low-Notifier/static/js/main.a83717de.chunk.js"
+    "revision": "d0a6bff5f93ac70cd417",
+    "url": "/Battery-Low-Notifier/static/js/main.e98cf9c5.chunk.js"
   },
   {
     "revision": "0b7e42fc89d140f61bb9f3e0c39793e8",
