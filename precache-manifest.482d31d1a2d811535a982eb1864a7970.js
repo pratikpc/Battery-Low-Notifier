@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbb8e121d8791156743548abcc15404a",
+    "revision": "930981b8fb21a7676428181d58ecdb05",
     "url": "/Battery-Low-Notifier/index.html"
   },
   {
-    "revision": "a58a95f1e2cdfb4d3f47",
+    "revision": "87b4287a88a64d073973",
     "url": "/Battery-Low-Notifier/static/css/main.fb8e7c72.chunk.css"
   },
   {
-    "revision": "ca5e98ca3faa76dcde34",
-    "url": "/Battery-Low-Notifier/static/js/2.9b08802f.chunk.js"
+    "revision": "079f09731d5d9ab0abbe",
+    "url": "/Battery-Low-Notifier/static/js/2.8e646477.chunk.js"
   },
   {
     "revision": "6c661bfd12b151c09a654fe75d1650f7",
-    "url": "/Battery-Low-Notifier/static/js/2.9b08802f.chunk.js.LICENSE.txt"
+    "url": "/Battery-Low-Notifier/static/js/2.8e646477.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a58a95f1e2cdfb4d3f47",
-    "url": "/Battery-Low-Notifier/static/js/main.2565ef2b.chunk.js"
+    "revision": "87b4287a88a64d073973",
+    "url": "/Battery-Low-Notifier/static/js/main.a83717de.chunk.js"
   },
   {
     "revision": "0b7e42fc89d140f61bb9f3e0c39793e8",

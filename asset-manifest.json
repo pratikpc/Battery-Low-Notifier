@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Battery-Low-Notifier/static/css/main.fb8e7c72.chunk.css",
-    "main.js": "/Battery-Low-Notifier/static/js/main.2565ef2b.chunk.js",
-    "main.js.map": "/Battery-Low-Notifier/static/js/main.2565ef2b.chunk.js.map",
+    "main.js": "/Battery-Low-Notifier/static/js/main.a83717de.chunk.js",
+    "main.js.map": "/Battery-Low-Notifier/static/js/main.a83717de.chunk.js.map",
     "runtime-main.js": "/Battery-Low-Notifier/static/js/runtime-main.de316204.js",
     "runtime-main.js.map": "/Battery-Low-Notifier/static/js/runtime-main.de316204.js.map",
-    "static/js/2.9b08802f.chunk.js": "/Battery-Low-Notifier/static/js/2.9b08802f.chunk.js",
-    "static/js/2.9b08802f.chunk.js.map": "/Battery-Low-Notifier/static/js/2.9b08802f.chunk.js.map",
+    "static/js/2.8e646477.chunk.js": "/Battery-Low-Notifier/static/js/2.8e646477.chunk.js",
+    "static/js/2.8e646477.chunk.js.map": "/Battery-Low-Notifier/static/js/2.8e646477.chunk.js.map",
     "index.html": "/Battery-Low-Notifier/index.html",
-    "precache-manifest.362da63ff1811e48a7c91f9a7caffcab.js": "/Battery-Low-Notifier/precache-manifest.362da63ff1811e48a7c91f9a7caffcab.js",
+    "precache-manifest.482d31d1a2d811535a982eb1864a7970.js": "/Battery-Low-Notifier/precache-manifest.482d31d1a2d811535a982eb1864a7970.js",
     "service-worker.js": "/Battery-Low-Notifier/service-worker.js",
     "static/css/main.fb8e7c72.chunk.css.map": "/Battery-Low-Notifier/static/css/main.fb8e7c72.chunk.css.map",
-    "static/js/2.9b08802f.chunk.js.LICENSE.txt": "/Battery-Low-Notifier/static/js/2.9b08802f.chunk.js.LICENSE.txt",
+    "static/js/2.8e646477.chunk.js.LICENSE.txt": "/Battery-Low-Notifier/static/js/2.8e646477.chunk.js.LICENSE.txt",
     "static/js/notify.worker.b973d492.worker.js": "/Battery-Low-Notifier/static/js/notify.worker.b973d492.worker.js",
     "static/js/notify.worker.b973d492.worker.js.LICENSE.txt": "/Battery-Low-Notifier/static/js/notify.worker.b973d492.worker.js.LICENSE.txt",
     "static/js/notify.worker.b973d492.worker.js.map": "/Battery-Low-Notifier/static/js/notify.worker.b973d492.worker.js.map"
   },
   "entrypoints": [
     "static/js/runtime-main.de316204.js",
-    "static/js/2.9b08802f.chunk.js",
+    "static/js/2.8e646477.chunk.js",
     "static/css/main.fb8e7c72.chunk.css",
-    "static/js/main.2565ef2b.chunk.js"
+    "static/js/main.a83717de.chunk.js"
   ]
 }
