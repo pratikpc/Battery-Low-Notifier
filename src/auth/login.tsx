@@ -3,6 +3,10 @@ import React from 'react';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import { Button } from '@material-ui/core';
+import { Link as DOMLink } from 'react-router-dom';
+
+import IconAndroid from '@material-ui/icons/Android';
 
 // Configure FirebaseUI.
 const uiConfig = {
@@ -42,10 +46,15 @@ export default function Login() {
                fontSize: '20px'
             }}
          >
-            <p>
-               Sends Notification whenever your Battery is Low
-               <br /> Remember to Install Our Android App
-            </p>
+            <div>
+               <div>Sends Notification whenever your Battery is Low</div>
+               <div>
+                  <Button variant="outlined" component={DOMLink} to="/release">
+                     <IconAndroid />
+                     Download Android APK
+                  </Button>
+               </div>
+            </div>
          </div>
          <div style={{ display: 'inline-block', height: '50%', width: '100%' }}>
             <StyledFirebaseAuth

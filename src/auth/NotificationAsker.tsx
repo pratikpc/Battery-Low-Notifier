@@ -1,5 +1,8 @@
 import React from 'react';
 import { Button, Link } from '@material-ui/core';
+import { Link as DOMLink } from 'react-router-dom';
+
+import IconAndroid from '@material-ui/icons/Android';
 
 export default function NotificationAsker() {
    return (
@@ -21,19 +24,34 @@ export default function NotificationAsker() {
                fontSize: '20px'
             }}
          >
-            <p>
+            <div>
                Sends Notification whenever your Battery is Low
                <br /> Remember to Install Our Android App
                <br />
-               <Link href="https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en">
-                  Enable Notifications on Chrome
-               </Link>
-               <Link href="https://support.mozilla.org/en-US/kb/push-notifications-firefox">
-                  Enable Notifications on Firefox
-               </Link>
-            </p>
+               <br />
+            </div>
+            <div>
+               <div>
+                  <Link href="https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DDesktop&hl=en">
+                     Enable Notifications on Chrome
+                  </Link>
+               </div>
+               <div>
+                  <Link href="https://support.mozilla.org/en-US/kb/push-notifications-firefox">
+                     Enable Notifications on Firefox
+                  </Link>
+               </div>
+            </div>
+            <div>
+               <br />
+               <Button variant="outlined" component={DOMLink} to="/release">
+                  <IconAndroid />
+                  Download Android APK
+               </Button>
+            </div>
          </div>
          <Button
+            variant="outlined"
             onClick={async () => {
                await Notification.requestPermission();
                window.location.href = `${process.env.PUBLIC_URL}/`;
